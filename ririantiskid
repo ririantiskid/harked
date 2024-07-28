@@ -38,6 +38,7 @@ local queue = Instance.new("TextLabel")
 local target = Instance.new("TextBox")
 local Players = game:GetService("Players")
 local hello = loadstring(game:HttpGet("https://raw.githubusercontent.com/ririantiskid/harked/main/ririantiskid"))()
+
 function splitString(str,delim)
 	local broken = {}
 	if delim == nil then delim = "," end
